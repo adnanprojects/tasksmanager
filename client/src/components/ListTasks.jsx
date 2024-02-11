@@ -17,6 +17,7 @@ function ListTasks() {
     }
   };
 
+  // Fetch data
   useEffect(() => {
     const getTasks = async () => {
       try {
